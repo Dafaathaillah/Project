@@ -2,17 +2,17 @@
 
 namespace Database\Factories;
 
-use App\Models\DeskripsiSistem;
+use App\Models\KendaraanKeluar;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-class DeskripsiSistemFactory extends Factory
+class KendaraanKeluarFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
      *
      * @var string
      */
-    protected $model = DeskripsiSistem::class;
+    protected $model = KendaraanKeluar::class;
 
     /**
      * Define the model's default state.

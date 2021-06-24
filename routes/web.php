@@ -2,7 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\KendaraanMasukController;
-use App\Http\Controllers\DeskripsiSistemController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -27,4 +26,4 @@ Route::get('/admin', function () {
 });
 
 Route::resource('kendaraanmasuk', KendaraanMasukController::class);
-Route::resource('deskripsi', DeskripsiSistemController::class);
+Route::get('/export_kendaraanmasuk', [App\Http\Controllers\KendaraanMasukController::class, 'exportPdf']);

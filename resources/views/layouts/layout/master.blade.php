@@ -6,7 +6,7 @@
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
 <head>
-    <title>Sistem Pemesanan Menu @yield('title')</title>
+    <title>Sistem Inventaris Dealer @yield('title')</title>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
@@ -34,7 +34,7 @@
 
     <link rel="stylesheet" type="text/css" href="{{ asset('css/admindek/style.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/admindek/widget.css') }}">
-
+    
     @stack('style')
 </head>
 
