@@ -13,7 +13,7 @@
                     </a>
                 </li>
                 <li class="">
-                    <a href="#" class="waves-effect waves-dark">
+                    <a href="{{ route('deskripsi.index') }}" class="waves-effect waves-dark">
                         <span class="pcoded-micon">
                             <i class="feather icon-edit"></i>
                         </span>
@@ -29,7 +29,7 @@
                     </a>
                 </li>
                 <li class="">
-                    <a href="#" class="waves-effect waves-dark">
+                    <a href="{{ route('kendaraanmasuk.index') }}" class="waves-effect waves-dark">
                         <span class="pcoded-micon">
                             <i class="feather icon-list"></i>
                         </span>

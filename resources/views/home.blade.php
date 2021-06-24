@@ -15,6 +15,9 @@
                     @endif
 
                     {{ __('SELAMAT DATANG DI SISTEM INVENTARIS KAMI!') }}
+                    <div>
+                        <a class="btn btn-success mt-3" href="{{ route('deskripsi.index') }}">Lanjut Kehalaman Utama</a>
+                    </div>
                 </div>
             </div>
         </div>
