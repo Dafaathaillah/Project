@@ -10,19 +10,19 @@
                     <div class="page-header-title">
                         <i class="feather icon-edit bg-c-blue"></i>
                         <div class="d-inline">
-                            <h5>DESKRIPSI SISTEM</h5>
-                            <span>Deskripsi Sistem Inventory Dealer</span>
+                            <h5>DASHBOARD</h5>
+                            <span>Dashboard Sistem Inventory Dealer</span>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="page-header-breadcrumb">
                         <ul class=" breadcrumb breadcrumb-title">
+                            {{-- <li class="breadcrumb-item">
+                                <a href="{{ route('deskripsi.index') }}"><i class="feather icon-home"></i></a>
+                            </li> --}}
                             <li class="breadcrumb-item">
-                                <a href="#"><i class="feather icon-home"></i></a>
-                            </li>
-                            <li class="breadcrumb-item">
-                                <a href="#!">Deskripsi Sistem</a>
+                                <a href="#!">Dashboard</a>
                             </li>
                         </ul>
                     </div>
@@ -39,7 +39,7 @@
                             <div class="col-sm-12">
                                 <div class="card">
                                     <div class="card-header">
-                                        <h5>Deskripsi Sistem</h5>
+                                        <h5>Deskripsi</h5>
                                         <div class="card-header-right">
                                             <ul class="list-unstyled card-option">
                                                 <li class="first-opt"><i
