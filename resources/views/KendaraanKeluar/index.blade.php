@@ -19,7 +19,7 @@
             <div class="page-header-breadcrumb">
                 <ul class=" breadcrumb breadcrumb-title">
                     <li class="breadcrumb-item">
-                        <a href="{{ route('deskripsi.index') }}"><i class="feather icon-home"></i></a>
+                        <a href="#"><i class="feather icon-home"></i></a>
                     </li>
                     <li class="breadcrumb-item"><a href="#!">KENDARAAN KELUAR</a></li>
                 </ul>
