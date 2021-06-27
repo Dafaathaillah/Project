@@ -21,9 +21,9 @@
                                 <i class="feather icon-x input-group-text"></i>
                             </span>
                             <input type="text" class="form-control" placeholder="Enter Keyword">
-                            <span class="input-group-append search-btn">
+                            {{-- <span class="input-group-append search-btn">
                                 <i class="feather icon-search input-group-text"></i>
-                            </span>
+                            </span> --}}
                         </div>
                     </div>
                 </li>
