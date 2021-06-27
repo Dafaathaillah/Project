@@ -8,7 +8,7 @@
             <div class="row align-items-end">
                 <div class="col-lg-8">
                     <div class="page-header-title">
-                        <i class="feather icon-watch bg-c-blue"></i>
+                        <i class="feather icon-edit bg-c-blue"></i>
                         <div class="d-inline">
                             <h5>DESKRIPSI SISTEM</h5>
                             <span>Deskripsi Sistem Inventory Dealer</span>
@@ -19,7 +19,7 @@
                     <div class="page-header-breadcrumb">
                         <ul class=" breadcrumb breadcrumb-title">
                             <li class="breadcrumb-item">
-                                <a href="index.html"><i class="feather icon-home"></i></a>
+                                <a href="#"><i class="feather icon-home"></i></a>
                             </li>
                             <li class="breadcrumb-item">
                                 <a href="#!">Deskripsi Sistem</a>
@@ -60,14 +60,14 @@
                                     <p>
                                         {{ $dsc->isi }}
                                     </p>
-                                    <div>
+                                    {{-- <div>
                                     <a class="btn btn-primary btn-round btn-sm" href="{{ route('deskripsi.edit', $dsc->id) }}"><i class="fa fa-edit"></i> Edit</a>
                                     <form action="{{ route('deskripsi.destroy', $dsc->id) }}" method="POST" class="d-inline">
                                         @csrf
                                         @method('DELETE')
                                         <button type="submit" class="btn btn-danger btn-round btn-sm"><i class="fa fa-trash"></i> Delete</button>
                                     </form>
-                                    </div>
+                                    </div> --}}
                                 @endforeach
                                     </div>
                                 </div>
