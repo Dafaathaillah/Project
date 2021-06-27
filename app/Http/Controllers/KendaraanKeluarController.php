@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\KendaraanKeluar;
 use App\Models\KendaraanMasuk;
+use PDF;
 
 class KendaraanKeluarController extends Controller
 {
@@ -113,5 +114,13 @@ class KendaraanKeluarController extends Controller
         KendaraanKeluar::find($id)->delete();
         return redirect()->route('KendaraanKeluar.index')
             ->with('success', 'Data Berhasil Dihapus');
+    }
+
+    public function exportPdf()
+    {
+           $data = KendaraanKeluar::all();
+           $pdf = PDF::loadview('KendaraanKeluar.pdf',compact('data'));
+           $pdf->setPaper('legal','landscape');
+           return $pdf->download('KENDARAAN-KELUAR.pdf');
     }
 }
