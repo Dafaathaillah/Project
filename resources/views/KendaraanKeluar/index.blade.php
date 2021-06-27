@@ -85,6 +85,7 @@
                             </table>
                         </div>
                     </div>
+                    <p align="center"><a style="width: 30%" class="btn btn-primary feather icon-download" href="{{ url('export_kendaraankeluar') }}" target="_blank">Unduh Data</a></p>
                 </div>
             </div>
         </div>

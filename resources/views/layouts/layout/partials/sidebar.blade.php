@@ -5,7 +5,11 @@
             <div class="pcoded-navigation-label">Navigation</div>
             <ul class="pcoded-item pcoded-left-item">
                 <li class="">
+
+                    <a href="/dashboard" class="waves-effect waves-dark">
+
                     <a href="" class="waves-effect waves-dark">
+
                         <span class="pcoded-micon">
                             <i class="feather icon-home"></i>
                         </span>
@@ -21,7 +25,7 @@
                     </a>
                 </li>
                 <li class="">
-                    <a href="daftarKendaraan/index" class="waves-effect waves-dark">
+                    <a href="/dashboard" class="waves-effect waves-dark">
                         <span class="pcoded-micon">
                             <i class="feather icon-list"></i>
                         </span>
@@ -37,7 +41,11 @@
                     </a>
                 </li>
                 <li class="">
+
+                    <a href="/KendaraanKeluar" class="waves-effect waves-dark">
+
                     <a href="{{ route('KendaraanKeluar.index') }}" class="waves-effect waves-dark">
+
                         <span class="pcoded-micon">
                             <i class="feather icon-list"></i>
                         </span>

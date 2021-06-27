@@ -19,7 +19,11 @@
                 <div class="page-header-breadcrumb">
                     <ul class=" breadcrumb breadcrumb-title">
                         <li class="breadcrumb-item">
+
+                            <a href="index.html"><i class="feather icon-home"></i></a>
+
                             <a href="#"><i class="feather icon-home"></i></a>
+
                         </li>
                         <li class="breadcrumb-item"><a href="#!">KENDARAAN MASUK</a></li>
                     </ul>
@@ -84,7 +88,11 @@
                         {{$kendaraanMasuks->links()}}
 
                     </div>
+
+                      <p align="center"><a style="width: 30%" class="btn btn-primary feather icon-download" href="{{ url('export_kendaraanmasuk') }}" target="_blank">Unduh Data</a></p>
+
                       {{-- <p align="center"><a style="width: 30%" class="btn btn-primary feather icon-download" href="{{ url('export_kendaraanmasuk') }}" target="_blank">Unduh Data</a></p> --}}
+
                 </div>
             </div>
         </div>
